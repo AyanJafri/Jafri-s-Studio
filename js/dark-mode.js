@@ -8,15 +8,15 @@ darkBtn.onclick = function () {
 
     if (localStorage.getItem("theme") == "light") {
         localStorage.setItem("theme", "dark");
-        for(let i = 0; i < freelancer_logo.length; i++){
+        for (let i = 0; i < freelancer_logo.length; i++) {
             freelancer_logo[i].setAttribute("fill", "#dbdbdb")
         }
-        
+
     }
 
     else {
         localStorage.setItem("theme", "light");
-        for(let i = 0; i < freelancer_logo.length; i++){
+        for (let i = 0; i < freelancer_logo.length; i++) {
             freelancer_logo[i].setAttribute("fill", "#161F2B")
         }
     }
@@ -27,7 +27,7 @@ darkBtn.onclick = function () {
 if (localStorage.getItem("theme") == "light") {
     darkBtn.classList.remove("dark-btn-on");
     document.body.classList.remove("dark-theme");
-    for(let i = 0; i < freelancer_logo.length; i++){
+    for (let i = 0; i < freelancer_logo.length; i++) {
         freelancer_logo[i].setAttribute("fill", "#161F2B")
     }
 }
@@ -36,7 +36,7 @@ if (localStorage.getItem("theme") == "light") {
 else if (localStorage.getItem("theme") == "dark") {
     darkBtn.classList.add("dark-btn-on");
     document.body.classList.add("dark-theme");
-    for(let i = 0; i < freelancer_logo.length; i++){
+    for (let i = 0; i < freelancer_logo.length; i++) {
         freelancer_logo[i].setAttribute("fill", "#dbdbdb")
     }
 }
@@ -44,7 +44,7 @@ else if (localStorage.getItem("theme") == "dark") {
 
 else {
     localStorage.setItem("theme", "light");
-    for(let i = 0; i < freelancer_logo.length; i++){
+    for (let i = 0; i < freelancer_logo.length; i++) {
         freelancer_logo[i].setAttribute("fill", "#161F2B")
     }
 }

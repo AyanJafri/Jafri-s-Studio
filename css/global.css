@@ -1,8 +1,8 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,46 +35,46 @@ body {
 
 
 * {
-scrollbar-width: thin;
-scrollbar-color: var(--nav-color);
+    scrollbar-width: thin;
+    scrollbar-color: var(--nav-color);
 }
-            
+
 *::-webkit-scrollbar {
-width: 7px;
-width: 7px;
+    width: 7px;
+    width: 7px;
 }
-            
+
 *::-webkit-scrollbar-track {
-border-radius: 8px;
-background-color: #505050;
+    border-radius: 8px;
+    background-color: #505050;
 }
-            
+
 *::-webkit-scrollbar-track:hover {
-background-color: #999999;
+    background-color: #999999;
 }
-            
+
 *::-webkit-scrollbar-track:active {
-background-color: #999999;
+    background-color: #999999;
 }
-            
+
 *::-webkit-scrollbar-thumb {
-border-radius: 8px;
-background-color: #505050;
+    border-radius: 8px;
+    background-color: #505050;
 }
-            
+
 *::-webkit-scrollbar-thumb:hover {
-background-color: var(--nav-color);
+    background-color: var(--nav-color);
 }
-            
+
 *::-webkit-scrollbar-thumb:active {
-background-color: var(--nav-color);
+    background-color: var(--nav-color);
 }
 
 
 /* Header Starts */
 
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,38 +88,38 @@ header{
     background: var(--bg-color);
 }
 
-header .logo{
+header .logo {
     display: flex;
 }
 
-header .logo img{
+header .logo img {
     width: 30px;
     margin-right: 20px;
 }
 
-header .logo h2{
+header .logo h2 {
     font-size: 31px;
     font-weight: 700;
     text-transform: uppercase;
     color: var(--nav-color);
 }
 
-header nav{
+header nav {
     margin-right: 100px;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-header nav ul li{
+header nav ul li {
     list-style: none;
     padding-right: 25px;
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
     color: var(--nav-color);
     font-size: 0.9em;
@@ -160,10 +160,10 @@ header nav ul li a{
 /* Banner Starts */
 
 
-.top{
+.top {
     height: 100vh;
     margin-top: 50px;
-    background-image: url(/IMG/background.jpg);
+    background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-attachment: fixed; */
@@ -173,7 +173,7 @@ header nav ul li a{
     color: #fff;
 }
 
-.top .box-1{
+.top .box-1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,7 +182,7 @@ header nav ul li a{
     border-radius: 5px;
 }
 
-.top .box-1 .heading-1 h2{
+.top .box-1 .heading-1 h2 {
     font-size: 4em;
     font-weight: 700;
     text-align: left;
@@ -192,7 +192,7 @@ header nav ul li a{
     font-family: 'Kodchasan', sans-serif;
 }
 
-.top .box-1 .heading-1 p{
+.top .box-1 .heading-1 p {
     font-size: 1em;
     font-weight: 200;
     text-align: left;
@@ -200,7 +200,7 @@ header nav ul li a{
     color: #c0c0c0;
 }
 
-.top .box-2{
+.top .box-2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,24 +209,24 @@ header nav ul li a{
     margin: 70px 0 0 0;
 }
 
-.top .box-2 .profile-img img{
+.top .box-2 .profile-img img {
     width: 350px;
     border-radius: 60px;
     margin-bottom: 10px;
 }
 
-.top .box-2 .heading-2{
+.top .box-2 .heading-2 {
     width: 310px;
 }
 
-.top .box-2 .heading-2 h2{
+.top .box-2 .heading-2 h2 {
     font-size: 2.5em;
     font-weight: 500;
     text-transform: capitalize;
     text-align: right;
 }
 
-.top .box-2 .heading-2 p{
+.top .box-2 .heading-2 p {
     font-size: 1.5em;
     text-align: right;
     font-weight: 200;
@@ -240,7 +240,7 @@ header nav ul li a{
 /* Footer Starts */
 
 
-footer{
+footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -251,7 +251,7 @@ footer{
     width: 100%;
 }
 
-footer .one{
+footer .one {
     display: flex;
     justify-content: space-between;
     align-items: space-between;
@@ -259,20 +259,20 @@ footer .one{
     margin-bottom: 60px;
 }
 
-footer .one h2{
+footer .one h2 {
     font-size: 2.3em;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-footer .one .img{
+footer .one .img {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 120px;
 }
 
-footer .one img{
+footer .one img {
     width: 25px;
     filter: opacity(50%);
 }
@@ -281,7 +281,7 @@ footer .one img:hover {
     filter: grayscale(0);
 }
 
-footer p{
+footer p {
     font-size: 1em;
     font-weight: 400;
     color: #7a7676;

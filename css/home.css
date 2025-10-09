@@ -1,13 +1,13 @@
-.main{
+.main {
     width: 100%;
     margin: 150px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-} 
+}
 
-.main .box-1{
+.main .box-1 {
     background: var(--nav-color);
     width: 550px;
     height: 550px;
@@ -19,7 +19,7 @@
     border-radius: 10px 0 0 10px;
 }
 
-.main .box-1 h2{
+.main .box-1 h2 {
     font-size: 2.5em;
     font-weight: 600;
     margin-bottom: 40px;
@@ -27,7 +27,7 @@
     font-family: 'Kodchasan', sans-serif;
 }
 
-.main .box-1 h1{
+.main .box-1 h1 {
     font-size: 3.6em;
     text-align: center;
     margin-bottom: 40px;
@@ -36,7 +36,7 @@
     font-family: 'Kodchasan', sans-serif;
 }
 
-.main .box-1 a{
+.main .box-1 a {
     font-size: 1.3em;
     color: var(--bg-color);
     text-decoration: none;
@@ -45,13 +45,13 @@
     transition: 0.3S;
 }
 
-.main .box-1 a:hover{
+.main .box-1 a:hover {
     color: rgb(106, 106, 106);
     transition: 0.3S;
     border-bottom: 2px solid rgb(106, 106, 106);
 }
 
-.main .box-2 img{
+.main .box-2 img {
     width: 750px;
     height: 550px;
     margin-top: 4px;
